@@ -1,7 +1,7 @@
 ## Objective
 The goal of this project is to analyze the sales data for Monday Coffee. This company has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shops based on consumer demand and sales performance.
 
-### Coffee Analysis
+# Coffee Analysis
 
 ## 1. Coffee consumer
 How many people in each city are estimated to consume coffee, 
@@ -29,7 +29,7 @@ from city
 order by 2 desc
 ;
 ```
-# 2. Total revenue
+### 2. Total revenue
 ```sql
 select *
 from sales;
