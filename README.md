@@ -29,7 +29,7 @@ from city
 order by 2 desc
 ;
 ```
-## 2. Total revenue
+# 2. Total revenue
 ```sql
 select *
 from sales;
@@ -38,7 +38,7 @@ select sum(total) as revenue
 from sales;
 ```
 
-##2. What is the total revenue generated from coffee sales 
+## 2. What is the total revenue generated from coffee sales 
 across all cities in the last quarter of 2023?
 
 ```sql
